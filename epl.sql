@@ -1,4 +1,4 @@
---Deleting columns to lessen the information needed on a final league table
+--Deleting columns to reduce the information needed to be seen on a final league table
 ALTER TABLE league_table
 DROP COLUMN [pts/mp], [xg], [xgd], [xga], [xgd/90]
 
